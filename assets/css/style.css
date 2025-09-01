@@ -32,7 +32,7 @@ div.aboutmepage {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 25%;
+    width: 75%;
     background-color: #422F42;
     border-radius: 20px;
     font-family: 'Alata', sans-serif;
@@ -89,4 +89,21 @@ div.aboutmepage.expandable {
     text-decoration: underline;
 }
 
+.linksflex {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background-color: #422F42;
+    top: 100px;
+}
+.bigbox {
+    display: flex;
+    position: relative;
+    
+    width: 75vh;
+    height: 750px;
+    background-color: #684e68;
+}
 /* add random title to titleclass
