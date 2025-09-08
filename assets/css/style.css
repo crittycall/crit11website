@@ -94,9 +94,8 @@ div.aboutmepage.expandable {
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 1250px;
-    padding-bottom: 50px;
-    padding-top: 119px;
+    height: 75vh;
+    top: 100px;
 }
 .bigbox {
     display: flex;
@@ -113,6 +112,12 @@ div.aboutmepage.expandable {
     width: 100%;
     z-index: 2;
     background-color: #27191f;
+    box-shadow: 0px 1px 2px #220C06 ;
+    overflow-y: auto;
+}
+div.smallerbigbox.expandable {
+    height: auto;
+    min-height: 400px;
 }
 .rows {
     display: flex;
@@ -133,28 +138,42 @@ div.aboutmepage.expandable {
     width: 40%;
     float: right;
     color: #FBFFE8;
+    font-family: 'ABeeZee';font-size: 18px;
+    justify-content: center;
+    box-shadow: 0px 2px 4px #220C06 ;
 }
 .stupiddivider {
     display: flex;
     height: 100%;
     width: 5%;
 }
-.widgetlink {
-    padding-left: 10px;
-}
+
 .fuckassbutton {
     display: flex;
-    background-color: aqua;
+    background-color: #FBFFE8;
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     right: 12.5%;
     height: 20px;
     width: 75%;
-
+    transition: all 0.2s;
 } 
 .linkdiv {
     display: flex;
     height: 100%;
     width: 100%;
+    justify-content: center;
+}
+.fuckassbutton:hover {
+    background-color: aliceblue;
+    height: 25px;
+}
+.linker {
+    position: relative;
+    font-family: 'ABeeZee';font-size: 16px;
+    color: #220C06;
+    float: left;
+    transition: color 0.1s;
+    
 }
 /* add random title to titleclass
