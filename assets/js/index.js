@@ -8,3 +8,4 @@ function randomimage() {
     const element = document.getElementById('yourid')
     element.src = randomimagegen
 }
+

@@ -101,7 +101,7 @@ div.aboutmepage.expandable {
 .bigbox {
     display: flex;
     position: relative;
-    width: 75vh;
+    width: 75%;
     height: 100%;
     background-color:#422F42;
 }
@@ -113,5 +113,48 @@ div.aboutmepage.expandable {
     width: 100%;
     z-index: 2;
     background-color: #27191f;
+}
+.rows {
+    display: flex;
+    position: relative;
+    height: 100px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.infowidget {
+    display: flex;
+    position: relative;
+    background-color: #422F42;
+    height: 100%;
+    width: 40%;
+    float: right;
+    color: #FBFFE8;
+}
+.stupiddivider {
+    display: flex;
+    height: 100%;
+    width: 5%;
+}
+.widgetlink {
+    padding-left: 10px;
+}
+.fuckassbutton {
+    display: flex;
+    background-color: aqua;
+    position: absolute;
+    bottom: 5%;
+    right: 12.5%;
+    height: 20px;
+    width: 75%;
+
+} 
+.linkdiv {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 /* add random title to titleclass
