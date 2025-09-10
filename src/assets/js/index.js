@@ -7,5 +7,8 @@ function randomimage() {
     const randomimagegen = Math.floor(Math.random * titles.length)
     const element = document.getElementById('yourid')
     element.src = randomimagegen
+};
+function playbatsound() {
+ document.getElementById('sound1').play()
+    
 }
-
