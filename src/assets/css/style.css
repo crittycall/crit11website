@@ -153,6 +153,12 @@ div.smallerbigbox.expandable {
     width: 5%;
 }
 
+.imageshitter {
+    margin-top: 69px;
+    height: auto;
+    width: auto;
+    position: fixed;
+}
 .fuckassbutton {
     display: flex;
     background-color: #FBFFE8;
@@ -180,6 +186,14 @@ div.smallerbigbox.expandable {
     float: left;
     transition: color 0.1s;
     
+}
+.statstext {
+    position: relative;
+    font-family: ABeeZee; font-size: 18px;
+    color: #FBFFE8;
+    top: 600px;
+    padding: 10px;
+    float: left;
 }
 .bigfatfooter {
     position: fixed;
